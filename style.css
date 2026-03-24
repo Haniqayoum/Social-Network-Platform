@@ -1,0 +1,154 @@
+body {
+    background-color: #121212;
+    color: #e4e6eb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    z-index: 1030;
+}
+
+.navbar-brand {
+    color: #1877f2 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #e4e6eb !important;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+
+#friendList .list-group-item {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#friendList .list-group-item:hover {
+    background-color: #2a2a2a !important;
+}
+
+
+#notifications .list-group-item {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#notifications .list-group-item:hover {
+    background-color: #2a2a2a !important;
+}
+.text-muted{
+    color: #e4e6eb !important;
+}
+
+.card {
+    background-color: #1e1e1e !important;
+    border: none;
+    border-radius: 15px;
+    color: #e4e6eb;
+}
+
+
+textarea {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border: none;
+    resize: none;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #1877f2;
+}
+
+
+input[type="file"] {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+}
+
+.post-content {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #165ec9;
+}
+
+.btn-outline-primary {
+    color: #1877f2;
+    border-color: #1877f2;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1877f2;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #b0b3b8;
+    border-color: #b0b3b8;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #b0b3b8;
+    color: black;
+}
+
+
+.post-content a.hashtag {
+    color: #1877f2 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.post-content a.hashtag:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+.form-control::placeholder{
+color: #b0b3b8 !important;
+}
