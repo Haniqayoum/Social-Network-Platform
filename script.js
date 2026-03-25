@@ -60,7 +60,7 @@ function renderPosts() {
 
         postEl.innerHTML = `
             <div class="d-flex mb-2">
-                <img src="images/profile1.jpg" class="rounded-circle me-2" width="50" height="50">
+                <img src="./Image/istockphoto-2171382633-612x612.jpg" class="rounded-circle me-2" width="50" height="50">
                 <div>
                     <strong>${post.user}</strong><br>
                     <small class="text-muted">${post.username}</small>
